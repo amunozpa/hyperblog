@@ -2,6 +2,7 @@ Esta es la historia de Amue Muñoz
 
 Amue Muñoz tiene 33 años y nació en Perú y vivi la vida
 
+parece alto pero mide 1.71
 
 comandos git:
 
@@ -13,6 +14,10 @@ git config --global user.email "amueedinson@gmail.com"  - establezco el mail con
 git init -  para iniciar repositorio
 git add <files> - para agragar archivos al staging
 git commit -m "comentario" - para subirlo al repositorio
+
+git log <file> - para ver historia de los archivos
+git show <file> - para ver los cambios en los archivos
+
 
 
 otros no vistos:
