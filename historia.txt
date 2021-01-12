@@ -17,7 +17,7 @@ git commit -m "comentario" - para subirlo al repositorio (si no pongo comentario
 
 git log <file> - para ver historia de los archivos
 git show <file> - para ver los cambios en los archivos
-
+git diff hash1(más vieja) hash2
 
 
 otros no vistos:
