@@ -2,7 +2,7 @@ Esta es la historia de Amue Muñoz
 
 Amue Muñoz tiene 33 años y nació en Perú y vivi la vida
 
-parece alto pero mide 1.70
+parece alto pero mide 1.71
 
 comandos git:
 
@@ -16,8 +16,11 @@ git add <files> - para agragar archivos al staging
 git commit -m "comentario" - para subirlo al repositorio (si no pongo comentario me lleva al vim y se sale con esc + shift-z-z)
 
 git log <file> - para ver historia de los archivos
+git log --stat - cambios especificos en cada commit
 git show <file> - para ver los cambios en los archivos
 git diff hash1(más vieja) hash2
+
+git checkout hash <files> - para moverte a este a commit, se visulizara dicha versión (si se hace un commit desde esta version pasara a ser parte del master)
 
 
 otros no vistos:
