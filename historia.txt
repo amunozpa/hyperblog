@@ -32,6 +32,12 @@ git branch <nombreRama> - para crear una nombreRama
 
 git merge <nombreRama> - usualmente se hace desde master ya que traera el cambi hacia esta rama.
 
+git remote add origin URL - para agregar repositorio remoto a repositorio local y conectarlos (se debio crear un repositorio en github, gitlab, bitbuckt,etc)
+git remote -v - para verificar que la url de repositorio remoto se haya guardado
+git pull origin master --allow-unrelated-histories  - para traer el readme o otros archivos previamente agregador en el repos remoto
+git push origin master - una vez  teniendo todo lo de remoto en local ya puedes enviar los archivo de local que no tenia el repo remoto
+
+
 otros no vistos:
 
 git merge
