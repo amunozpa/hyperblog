@@ -37,6 +37,8 @@ git remote -v - para verificar que la url de repositorio remoto se haya guardado
 git pull origin master --allow-unrelated-histories  - para traer el readme o otros archivos previamente agregador en el repos remoto
 git push origin master - una vez  teniendo todo lo de remoto en local ya puedes enviar los archivo de local que no tenia el repo remoto
 
+#comando especial para cambiar nombre como rama master a "main"
+git branch -M main  - para cambiar nombre "master" a una nueva llamada main y con ello puede hacer push a la misma rama default en github.
 
 otros no vistos:
 
