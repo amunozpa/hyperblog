@@ -29,6 +29,7 @@ git reset --hard: Borra todo. Todo todito, absolutamente todo. Toda la informaci
 git reset HEAD: Este es el comando para sacar archivos del área de Staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add, por supuesto.
 
 git branch <nombreRama> - para crear una nombreRama
+git checkout -b <nombreRama> -para crear una rama
 
 git merge <nombreRama> - usualmente se hace desde master ya que traera el cambi hacia esta rama.
 
@@ -82,6 +83,15 @@ Borrar un tag del repositorio remoto: git tag -d nombre-del-tag y git push origi
 #Uso de alias (recomendacion)
 git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 alias nombre-alias="git log --all --graph --decorate --oneline"
+
+#Historia de las ramas
+git show branch
+git show branch --all
+gitk - abrira un software mas visual
+
+#para subir una rama local a remoto
+git push origin nombre-rama
+
 
 otros no vistos:
 
